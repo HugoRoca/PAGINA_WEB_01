@@ -180,16 +180,16 @@
 	.inicio #banner1{background-image: url(../img/Inicio/banner_01b.jpg) !important;}
 	.inicio #banner2{background-image: url(../img/inicio/banner_02b.jpg) !important;}
 	.inicio #banner3{background-image: url(../img/inicio/banner_03b.jpg) !important;}
-	.quienes_somos #banner1{background-image: url(../img/quienes_somos/banner_01b.jpg) !important;}
-	.quienes_somos #banner2{background-image: url(../img/quienes_somos/banner_02b.jpg) !important;}
-	.quienes_somos #banner3{background-image: url(../img/quienes_somos/banner_03b.jpg) !important;}
-	.slidepractica #banner1{background-image: url(../img/areas_de_practica/banner_01c.jpg) !important;}
-	.slidepractica #banner2{background-image: url(../img/areas_de_practica/banner_02c.jpg) !important;}
-	.slidepractica #banner3{background-image: url(../img/areas_de_practica/banner_03c.jpg) !important;}
-	.equipo #banner1{background-image: url(../img/el-equipo/banner_01b.jpg) !important;}
-	.equipo #banner2{background-image: url(../img/el-equipo/banner_02b.jpg) !important;}
-	.equipo #banner3{background-image: url(../img/el-equipo/banner_03b.jpg) !important;}
-	.contacto #banner2{background-image: url(../img/contacto/banner_01b.jpg) !important;}
+	.quienes_somos #banner1{background-image: url(../img/Inicio/banner_01b.jpg) !important;}
+	.quienes_somos #banner2{background-image: url(../img/Inicio/banner_02b.jpg) !important;}
+	.quienes_somos #banner3{background-image: url(../img/Inicio/banner_03b.jpg) !important;}
+	.slidepractica #banner1{background-image: url(../img/Inicio/banner_01c.jpg) !important;}
+	.slidepractica #banner2{background-image: url(../img/Inicio/banner_02c.jpg) !important;}
+	.slidepractica #banner3{background-image: url(../img/Inicio/banner_03c.jpg) !important;}
+	.equipo #banner1{background-image: url(../img/Inicio/banner_01b.jpg) !important;}
+	.equipo #banner2{background-image: url(../img/Inicio/banner_02b.jpg) !important;}
+	.equipo #banner3{background-image: url(../img/Inicio/banner_03b.jpg) !important;}
+	.contacto #banner2{background-image: url(../img/Inicio/banner_01b.jpg) !important;}
 	
 	#equipo_iframe{height: 2250px;}
 	#socio_iframe{height: 5000px;}
