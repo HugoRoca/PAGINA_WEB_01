@@ -1,0 +1,356 @@
+@media screen and (max-width: 1024px) {
+	html, body{-webkit-text-size-adjust: none;}
+	/* scrollbar */
+	::-webkit-scrollbar {
+		width: 8px;
+	}
+	 
+	/* Track */
+	::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+	}
+	 
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+		background: rgba(184,184,184,0.8); 
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+	}
+	::-webkit-scrollbar-thumb:window-inactive {
+		background: rgba(184,184,184,0.4); 
+	}
+} 
+
+
+@media screen and (max-width: 1005px) {
+	html, body{overflow-y: auto;overflow-x: hidden;}
+	.container {width: 100%;}
+	.slide-menu{display: none;}
+	.slide-menu-movil{display: block;}
+	.menu_idiomas{display: none;}
+	.main{padding:170px 0 0 0;}
+	.main .ocultar{display: none;}
+	.main .mostrar{display: inherit;}
+	#submenu_main{display: block;}
+	.barra_02{display: block;}
+	
+	.titulo_01{font-size: 1.4em;line-height: 1.4em;padding:0 0 10px 0;font-family: 'OpenSansSemibold', sans-serif;}
+	.titulo_02{font-size: 1.2em;line-height: 1.4em;padding:0 0 5px 0;font-family: 'OpenSansSemibold', sans-serif;}
+	.titulo_03{font-size: 1.2em;line-height: 1.4em;padding:0 0 5px 0;font-family: 'OpenSansSemibold', sans-serif;}
+	.titulo_04{font-size: 1.2em;line-height: 1.4em;padding:0 0 5px 0;font-family: 'OpenSansSemibold', sans-serif;}
+	.parrafo_01{font-size: 1.2em;line-height: 1.4em;}
+	.parrafo_02{font-size: 1.2em;line-height: 1.4em;}
+	.parrafo_03{font-size: 1.2em;line-height: 1.5em;}
+	.parrafo_04,.parrafo_04 b{font-size: 1.2em;line-height: 1.5em;}
+	.parrafo_05,#abogado_resultado .abogado .bio p, #socio_resultado .socioY .bio p{font-size: 1.2em;line-height: 1.5em;}
+	.parrafo_06{font-size: 1.2em;line-height: 1.5em;}
+	.lista_01{font-size: 1.2em;line-height: 1.4em;}
+	.lista_01 li{background: transparent;list-style: disc;padding: 0;margin:0 0 0 20px;}
+	.fecha{font-size: 1.2em;}
+	.pie_texto{font-size: 0.8em;}
+	
+	.margen_01{height: 30px; }
+	.margen_02{height: 25px; }
+
+	#slide div{background-size: auto 100%;}
+	.banner_inicio, .banner_practica{width: 100%;height: 460px;margin: 0;display: block;float:none;}
+	.banner_inicio #banner_menu_fondo, 
+	.banner_practica #banner_menu_fondo {width: 90%;height: auto;bottom: 0;left: 5%;}
+	.banner_inicio #banner_menu_fondo #banner_frases,
+	.banner_practica #banner_menu_fondo #banner_frases {width:50%;height: 60px;margin: 20px 0 20px 20px;float: left;}
+	.banner_inicio #banner_menu_fondo #banner_menu,
+	.banner_practica #banner_menu_fondo #banner_menu {width: auto;height: 22px;position: relative;display: block;padding: 20px 20px 0 0;float: right;}
+	.banner_inicio #banner_menu_fondo #banner_menu  a,
+	.banner_practica #banner_menu_fondo #banner_menu  a{width: 22px;height: 22px;}
+	.banner_inicio #banner_menu_fondo #banner_menu  a .normal,
+	.banner_practica #banner_menu_fondo #banner_menu  a .normal{background-image: url(../img/banner_bt_mobile.png) !important;}
+	.banner_inicio #banner_menu_fondo #banner_menu  a .over
+	.banner_practica #banner_menu_fondo #banner_menu  a .over{background-image: url(../img/banner_bt_over_mobile.png) !important;}
+	.frase{font-size: 1em;line-height: 1.2em;}
+
+	.inicio_c1{width: 90%;margin: 0 5%;clear: both;}
+	.inicio_c2{width: 90%;margin: 0 5%;clear: both;}
+	.networks{width: 50%;height: auto; text-align: center;margin: 0 0 10px 0;}
+
+	.global_networks_c1{width: 90%;margin: 0 5%;clear: both;}
+	.global_networks_c1 img{width: auto;height: 80px;}
+	.global_networks_c1 .img2{width: auto;height: 35px;}
+	.global_networks_c1 .video{display: none;}
+	.global_networks_c1 .video_movil{display: block;}
+	.global_networks_c2{width: 90%;margin: 0 5%;clear: both;}
+	.global_networks_c2 img{width: auto;height: 40px;}
+	.global_networks_c2 .video_global{display: none !important;}
+	.global_networks_c2 .img2{width: 300px;height: auto;}
+	.global_networks_pie{height: 40px;}
+	.global_networks .banner_inicio{width: 100%;height: 250px;margin: 0;display: block;float:none;}
+	.global_networks  #slide div{background-size: 100% auto;}
+	
+	
+	#equipo_iframe{height: 1800px;}
+	.equipo {padding: 0;}
+	.equipo #banner_slide {margin: 170px 0 0 0;}
+	#menu_alfabetico_abogados #bt_todos, #menu_alfabetico_abogados #bt_todos_back{font-family: 'OpenSansSemibold', sans-serif;font-size: 0.8em;}
+	#menu_alfabetico_abogados #todos{width: 70%;padding: 0 2% 0 0;}
+	#menu_alfabetico_abogados #todos a{font-family: 'OpenSansSemibold', sans-serif;font-size: 0.7em;}
+	#menu_alfabetico_abogados a{width: 15%; height: 60px; line-height: 60px;margin: 4px;background: #999;font-family: 'OpenSansSemibold', sans-serif;font-size: 1.2em;}
+	#menu_alfabetico_abogados a.last{margin: 4px;}
+	#menu_alfabetico_abogados a.inactivo{display: none;}
+	#abogado_resultado{height: auto;clear:both;}
+	#abogado_resultado .abogado{position:relative;height: auto;clear:both;}
+	#abogado_resultado .abogado .titulo{position:relative;height: auto;clear:both;}
+	#abogado_resultado .abogado .titulo img{clear:both;}
+	#abogado_resultado .abogado .titulo h1{clear:both;position:relative; left:0;padding: 5px 0 0 0;}
+	#abogado_resultado .abogado .bio{position:relative;height: auto;clear:both;}
+	#abogados_grupo{position: relative;bottom: auto;}
+	#abogados_grupo a{width: 96%;padding: 5px 2%;height: auto;font-size: 1.2em;line-height: 1.4em; margin: 0 0 5px 0; background: #ddd;color:#333;}
+	#abogados_grupo a.select{background: #666;color:#fff;}
+	#nabogado{position: relative;bottom: auto; display: none;}
+	#abogados_grupo h1{display: block !important;}
+	
+	.inicio_c {width: 90%;padding: 0 5%;}
+	#socio_iframe{height: 5000px;}
+	#socio_resultado{width: 100%;}
+	#socio_resultado .socio{width: 100%;height:auto;padding: 0 0 40px 0;clear: both;}
+	
+	.noticia_previo{width: 100%;}
+	.noticia_previo_box .noticia_parrafo {height: 80px;}  
+	.noticia_full{width: 90%;height: auto;padding:0 5%;}
+	.noticia_full_header{width: 100%;height: 150px;padding:0;}
+	.noticia_full_header .logo {width: auto;}
+	.noticia_idioma {right: 10px;}
+	.noticia_full_box{width: 100%;padding:20px 0 50px 0;}
+	.noticia_full .noticia_fecha {font-size: 1.2em;}
+	.noticia_full .noticia_titulo {font-size: 1.2em;}
+	.noticia_full .noticia_titulo_02{font-size: 1.4em;line-height: 1.4em;padding:0 0 10px 0;font-family: 'OpenSansSemibold', sans-serif;}
+	.noticia_full .noticia_parrafo {font-size: 1.2em;}
+	.noticia_full .noticia_leermas {font-size: 1.2em;}
+	.noticia_full .noticia_idioma ul li{font-size: 1.2em;}
+	
+	.testimonio_01 {font-size: 1.2em;}
+	.testimonio_02 {font-size: 0.8em;}
+	
+	.video_previo_box{width: 100%;padding: 5px 0;margin:  0 0 5px 0;border: none; background: #d41a20;}
+	.video_previo_box .thumb {margin:  0 0 0 5px; background: transparent;}
+	.video_previo_box .thumb img{opacity: 1;}
+	.video_previo_box:hover .thumb img{opacity: 1;}
+	.video_previo_box p{width: auto;float: left; margin: 0 0 0 10px; color: #fff; font-size: 1em;}
+	.video_previo_box:hover p{background: transparent;}
+	.evento_previo{width: 48%;margin:  0 1% 16px 0;float: left;}
+	
+	.practica_menu{display: none;}
+	.practica_c1{width: 100%;}
+	.practica_c1a{width: 90%;margin: 0 5% 30px 5%;clear: both;}
+	.practica_c1b{width: 90%;margin: 0 5%;clear: both;}
+	.bt_guia{width:80%;line-height:30px !important;padding:0 5%;margin:30px 5%;background:#d6000b;}
+	
+	#form_trabaja{width: 80%;margin: 0 0 40px 0;;clear: both;font-size: 1em;}
+	#form_trabaja .c1, #form_trabaja .c2{width: 100%;clear: both;}
+	.input_trabaja{height:40px;line-height:40px;font-size: 1em; background: #ccc;}
+	.textarea_trabaja{height: 200px !important;background: #ccc;font-size: 1em;}
+	.enviar_trabajar, .bt_gmap{height: auto;font-size: 1em;float: left;padding: 10px 30px; background: #d6000b;color: #fff; border-radius: 10px;}
+	.enviar_trabajar:hover, .bt_gmap:hover{background: #d6000b;}
+	
+	.contacto .mostrar{display: block}
+	.mapa_ubicacion{width: 625px;height: 344px;}
+	.mapa_ubicacion img, .mapa_ubicacion #map_canvas{width: 625px;height: 344px;}
+	
+	.logo_creditos{display: none;}
+	.logo_creditos2{display: block; height:150px; width: auto;}
+	.texto_creditos{float: left; margin: 0 0 0 20px;}
+	
+	.slidepractica #banner1{background-image: url(../img/areas_de_practica/banner_01b.jpg) !important;}
+	.slidepractica #banner2{background-image: url(../img/areas_de_practica/banner_02b.jpg) !important;}
+	.slidepractica #banner3{background-image: url(../img/areas_de_practica/banner_03b.jpg) !important;}
+}
+
+@media screen and (max-width: 960px) {
+	
+}
+
+@media screen and (max-width: 840px) {
+	#equipo_iframe{height: 2000px;}
+	#socio_iframe{height: 5000px;}
+}
+
+@media screen and (max-width: 720px) {
+	#slide div{background-size: auto 100%;}
+	.inicio #banner1{background-image: url(../img/inicio/banner_01b.jpg) !important;}
+	.inicio #banner2{background-image: url(../img/inicio/banner_02b.jpg) !important;}
+	.inicio #banner3{background-image: url(../img/inicio/banner_03b.jpg) !important;}
+	.quienes_somos #banner1{background-image: url(../img/quienes_somos/banner_01b.jpg) !important;}
+	.quienes_somos #banner2{background-image: url(../img/quienes_somos/banner_02b.jpg) !important;}
+	.quienes_somos #banner3{background-image: url(../img/quienes_somos/banner_03b.jpg) !important;}
+	.slidepractica #banner1{background-image: url(../img/areas_de_practica/banner_01c.jpg) !important;}
+	.slidepractica #banner2{background-image: url(../img/areas_de_practica/banner_02c.jpg) !important;}
+	.slidepractica #banner3{background-image: url(../img/areas_de_practica/banner_03c.jpg) !important;}
+	.equipo #banner1{background-image: url(../img/el-equipo/banner_01b.jpg) !important;}
+	.equipo #banner2{background-image: url(../img/el-equipo/banner_02b.jpg) !important;}
+	.equipo #banner3{background-image: url(../img/el-equipo/banner_03b.jpg) !important;}
+	.contacto #banner2{background-image: url(../img/contacto/banner_01b.jpg) !important;}
+	
+	#equipo_iframe{height: 2250px;}
+	#socio_iframe{height: 5000px;}
+	
+	#probono_text .ocultar{display: none;}
+	
+	.global_networks_c1 .video_movil{width: 75%;}
+	
+	.mapa_ubicacion{width: 500px;height: 275px;}
+	.mapa_ubicacion img, .mapa_ubicacion #map_canvas{width: 500px;height: 275px;}
+}
+
+@media screen and (max-width: 640px) {
+	.slide-menu-movil .header_menu{height: 120px;}
+	.slide-menu-movil .logo_mobile img, .slide-menu-movil .logo_mobileb img{width: auto; height: 50px;}
+	.slide-menu-movil .bt_menu img{width: auto; height: 50px;}
+	
+	.main{padding:130px 0 0 0;}
+	.equipo {padding: 0;}
+	.equipo #banner_slide {margin: 130px 0 0 0;}
+	
+	.margen_01{height: 30px; }
+	.margen_02{height: 25px; }
+
+	#slide div{background-size: auto 100%;}
+	.banner_inicio, .banner_practica{width: 100%;height: 400px;margin: 0;display: block;float:none;}
+	.banner_inicio #banner_menu_fondo, 
+	.banner_practica #banner_menu_fondo {width: 100%;height: auto;bottom: 0;left: 0;}
+	.banner_inicio #banner_menu_fondo #banner_frases,
+	.banner_practica #banner_menu_fondo #banner_frases {width:75%;height: 60px;margin: 10px 0 10px 5px;float: left;}
+	.banner_inicio #banner_menu_fondo #banner_menu,
+	.banner_practica #banner_menu_fondo #banner_menu {width: auto;height: 15px;position: relative;display: block;padding: 10px 5px 0 0;float: right;}
+	.banner_inicio #banner_menu_fondo #banner_menu  a,
+	.banner_practica #banner_menu_fondo #banner_menu  a{width: 15px;height: 15px;}
+	.frase{font-size: 0.75em;line-height: 0.9em}
+	
+	.inicio_c1{width: 90%;margin: 0 5%;clear: both;}
+	.inicio_c2{width: 90%;margin: 0 5%;clear: both;}
+	.networks{width: 50%;height: auto; text-align: center;margin: 0 0 10px 0;}
+
+	.global_networks_c1{width: 90%;margin: 0 5%;clear: both;}
+	.global_networks_c1 img{width: auto;height: 80px;}
+	.global_networks_c1 .img2{width: auto;height: 35px;}
+	.global_networks_c1 .video_movil{width: 100%;}
+	.global_networks_c2{width: 90%;margin: 0 5%;clear: both;}
+	.global_networks_c2 img{width: auto;height: 40px;}
+	.global_networks_pie{height: 40px;}
+	.global_networks .banner_inicio{width: 100%;height: 200px;margin: 0;display: block;float:none;}
+	.global_networks  #slide div{background-size: 100% auto;}
+	
+	#menu_alfabetico_abogados a{width: 15%; height: 60px; line-height: 60px;margin: 4px;background: #999;font-family: 'OpenSansSemibold', sans-serif;font-size: 1.2em;}
+	#menu_alfabetico_abogados a.last{margin: 4px;}
+	#menu_alfabetico_abogados a.inactivo{display: none;}
+	#abogado_resultado{height: auto;clear:both;}
+	#abogado_resultado .abogado{position:relative;height: auto;clear:both;}
+	#abogado_resultado .abogado .titulo{position:relative;height: auto;clear:both;}
+	#abogado_resultado .abogado .titulo img{clear:both;}
+	#abogado_resultado .abogado .titulo h1{clear:both;position:relative; left:0;padding: 5px 0 0 0;}
+	#abogado_resultado .abogado .bio{position:relative;height: auto;clear:both;}
+	#abogados_grupo{position: relative;bottom: auto;}
+	#abogados_grupo a{width: 96%;padding: 5px 2%;height: auto;font-size: 1.2em;line-height: 1.4em; margin: 0 0 5px 0; background: #ddd;color:#333;}
+	#abogados_grupo a.select{background: #666;color:#fff;}
+	#nabogado{position: relative;bottom: auto; display: none !important;}
+	
+	#equipo_iframe{height: 2100px;}
+	#socio_iframe{height: 4700px;}
+	
+	.noticia_full_header{width: 100%;height: 150px;padding:60px 0 0 0;}
+	.noticia_idioma {right: auto;left: 0;}
+	
+	.video_previo_box{width: 100%;padding: 5px 0;margin:  0 0 5px 0;border: none; background: #d41a20;}
+	.video_previo_box .thumb {margin:  0 0 0 5px; background: transparent;}
+	.video_previo_box .thumb img{opacity: 1;}
+	.video_previo_box:hover .thumb img{opacity: 1;}
+	.video_previo_box p{width: auto;float: left; margin: 0 0 0 10px; color: #fff; font-size: 1em;}
+	.video_previo_box:hover p{background: transparent;}
+	.evento_previo{width: 48%;margin:  0 1% 16px 0;float: left;}
+	
+	.practica_menu{display: none;}
+	.practica_c1{width: 100%;}
+	.practica_c1a{width: 90%;margin: 0 5% 30px 5%;clear: both;}
+	.practica_c1b{width: 90%;margin: 0 5%;clear: both;}
+	
+	#form_trabaja{width: 80%;margin: 0 0 40px 0;;clear: both;font-size: 1em;}
+	#form_trabaja .c1, #form_trabaja .c2{width: 100%;clear: both;}
+	.input_trabaja{height:40px;line-height:40px;font-size: 1em; background: #ccc;}
+	.textarea_trabaja{height: 200px !important;background: #ccc;font-size: 1em;}
+	.enviar_trabajar, .bt_gmap{height: auto;font-size: 1em;float: left;padding: 10px 30px; background: #d6000b;color: #fff; border-radius: 10px;}
+	.enviar_trabajar:hover, .bt_gmap:hover{background: #d6000b;}
+
+	.logo_creditos{display: none;}
+	.logo_creditos2{display: block;}
+	.texto_creditos{float: left; margin: 0 0 0 20px;}
+}
+
+@media screen and (max-width: 540px) {
+	.slide-menu-movil .main_menu h1,
+	.slide-menu-movil .main_menu a.prin,
+	.slide-menu-movil .main_menu li a.sub,
+	.slide-menu-movil .main_menu li h2{font-size: 1em !important;}
+	
+	.titulo_01{font-size: 1.2em;line-height: 1.4em;}
+	.titulo_02,.titulo_03, .titulo_04{font-size: 1em;line-height: 1.2em}
+	.parrafo_01,.parrafo_02,.parrafo_03, .parrafo_04,.parrafo_04 b,.parrafo_05,.parrafo_06,.lista_01{font-size: 0.8em;line-height: 1.3em; text-align: left;}
+	.lista_01 li{margin:0 0 0 15px;}
+	.fecha{font-size: 0.8em;}
+	.pie_texto{font-size: 0.75em;}
+	#submenu_main select{font-size: 1em !important;}
+	
+	#equipo_iframe{height: 1600px;}
+	#socio_iframe{height: 4400px;}
+	
+	.noticia_full .noticia_fecha {font-size: 1em;}
+	.noticia_full .noticia_titulo {font-size: 1em;padding: 0 0 10px 0;}
+	.noticia_full .noticia_titulo_02{font-size: 1.2em;line-height: 1.4em;}
+	.noticia_full .noticia_parrafo {font-size: 1em;text-align: left;}
+	.noticia_full .noticia_leermas {font-size: 1em;}
+	.noticia_full .noticia_previo_box .noticia_parrafo {height: 72px;}  
+	
+	.testimonio_01 {font-size: 1em;text-align: left;}
+	.testimonio_02 {font-size: 0.8em;text-align: left;}
+	
+	.banner_inicio, .banner_practica{height: 339px;}
+	
+	.global_networks_c1 .img2{height: 25px;}
+	.global_networks  #slide div{background-size: auto 100%;}
+	
+	.mapa_ubicacion{width: 430px;height: 237px;}
+	.mapa_ubicacion img, .mapa_ubicacion #map_canvas{width: 430px;height: 237px;}
+	
+	.logo_creditos2{height:80px;}
+}
+
+@media screen and (max-width: 480px) {
+	.frase{font-size: 0.95em;line-height: 1.1em}
+	
+	#abogados_grupo a {font-size: 1em;line-height: 1.2em;}
+	
+	.mapa_ubicacion{width: 400px;height: 220px;}
+	.mapa_ubicacion img, .mapa_ubicacion #map_canvas{width: 400px;height: 220px;}
+}
+
+@media screen and (max-width: 360px) {
+	.slide-menu-movil .logo_mobile img, .slide-menu-movil .logo_mobileb img {width: 200px;height: auto;}
+	.slide-menu-movil .bt_menu img {width: auto;height: 40px;}
+	.slide-menu-movil .main_menu h1, .slide-menu-movil .main_menu a.prin, .slide-menu-movil .main_menu li a.sub, .slide-menu-movil .main_menu li h2 {font-size: 0.9em !important;}
+	
+	.banner_inicio, .banner_practica {height: 280px;}
+	
+	.mapa_ubicacion{width: 300px;height: 165px;}
+	.mapa_ubicacion img, .mapa_ubicacion #map_canvas{width: 300px;height: 165px;}
+}
+
+
+@media screen and (max-width: 320px) {
+	.slide-menu-movil .logo_mobile img, .slide-menu-movil .logo_mobileb img {width: 180px;height: auto;}
+	.slide-menu-movil .bt_menu img {width: auto;height: 35px;}
+	
+	.mapa_ubicacion{width: 280px;height: 154px;}
+	.mapa_ubicacion img, .mapa_ubicacion #map_canvas{width: 280px;height: 154px;}
+}
+
+
+
