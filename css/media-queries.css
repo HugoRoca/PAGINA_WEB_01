@@ -177,7 +177,7 @@
 
 @media screen and (max-width: 720px) {
 	#slide div{background-size: auto 100%;}
-	.inicio #banner1{background-image: url(../img/inicio/banner_01b.jpg) !important;}
+	.inicio #banner1{background-image: url(../img/banner_01b.jpg) !important;}
 	.inicio #banner2{background-image: url(../img/inicio/banner_02b.jpg) !important;}
 	.inicio #banner3{background-image: url(../img/inicio/banner_03b.jpg) !important;}
 	.quienes_somos #banner1{background-image: url(../img/quienes_somos/banner_01b.jpg) !important;}
