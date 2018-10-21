@@ -161,9 +161,9 @@
 	.logo_creditos2{display: block; height:150px; width: auto;}
 	.texto_creditos{float: left; margin: 0 0 0 20px;}
 	
-	.slidepractica #banner1{background-image: url(../img/areas_de_practica/banner_01b.jpg) !important;}
-	.slidepractica #banner2{background-image: url(../img/areas_de_practica/banner_02b.jpg) !important;}
-	.slidepractica #banner3{background-image: url(../img/areas_de_practica/banner_03b.jpg) !important;}
+	.slidepractica #banner1{background-image: url(../img/Inicio/banner_01b.jpg) !important;}
+	.slidepractica #banner2{background-image: url(../img/Inicio/banner_02b.jpg) !important;}
+	.slidepractica #banner3{background-image: url(../img/Inicio/banner_03b.jpg) !important;}
 }
 
 @media screen and (max-width: 960px) {
